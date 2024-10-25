@@ -97,30 +97,31 @@ button {
     color:#FE5D9F;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 .info-container h2 {
     align-self: center;
     font-size: 36px;
     font-weight: 900;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .info-panels {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 60px;
 }
 
 .panel {
     width: 200px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     gap: 20px;
     color: #F686BD;
+
 }
 
 .panel img {
@@ -129,6 +130,17 @@ button {
 
 .quote-container {
     background-color: #F1E4F3;
+    padding: 100px 25%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author {
+    text-align: right;
 }
 
 .action-container {
