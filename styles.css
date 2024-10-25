@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #d22c84;
+}
+
+.info-container {
+    background-color: #fff6fb;
+}
+
+.quote-container {
+    background-color: #fedff0;
+}
+
+.action-container {
+    background-color: #fff6fb;
+}
+
+.action-box {
+    background-color: #9535d5;
+}
+
+footer {
+    background-color: #d22c84;
+}
