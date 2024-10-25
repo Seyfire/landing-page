@@ -87,33 +87,47 @@ button {
     font-weight: 800;
 }
 
-/* .img-placeholder {
-    background-color: #fedff0;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .hero-container img {
     width: 400px;
     flex: 1;
 }
 
 .info-container {
-    background-color: #fff6fb;
+    background-color: #F5F4F4;
+    color:#FE5D9F;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.info-container h2 {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.info-panels {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.panel {
+    width: 200px;
 }
 
 .quote-container {
-    background-color: #fedff0;
+    background-color: #F1E4F3;
 }
 
 .action-container {
-    background-color: #fff6fb;
+    background-color: #F5F4F4;
 }
 
 .action-box {
-    background-color: #9535d5;
+    background-color: #F686BD;
 }
 
 footer {
