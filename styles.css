@@ -1,3 +1,11 @@
+/* TYPEFACE INFO
+----- COLOR PALETTE -------
+#d22c84 <-- main accent
+#fff6fb <-- "white"
+#fedff0 <-- pale accent
+#9535d5 <-- 2nd accent
+ */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +13,30 @@
     font-family: Roboto, sans-serif;
 }
 
+header,
+.info-container,
+.quote-container,
+.action-container {
+    padding: 0 10%;
+}
+
 header {
     background-color: #d22c84;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+
 }
 
 .info-container {
