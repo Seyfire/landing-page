@@ -1,11 +1,10 @@
 /* TYPEFACE INFO
 ----- COLOR PALETTE -------
-#FE5D9F <--Cyclamen
+#FE5D9F <-- Cyclamen
 #F686BD <-- Persian pink
 #F4BBD3 <-- Orchid pink
 #F1E4F3 <-- Pale purple
 #D6D2D2 <-- Timberwolf
-
 #F5F4F4 <-- "white"
  */
 
@@ -87,6 +86,12 @@ button {
     color: #fff6fb;
     font-size: 18px;
     font-weight: 800;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #F5F4F4;
+    color:#FE5D9F;
 }
 
 .hero-container img {
@@ -157,7 +162,7 @@ button {
     display: flex;
 }
 
-.action-box button {
+.action-box a {
     margin-left: auto;
 }
 
