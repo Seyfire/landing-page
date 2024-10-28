@@ -4,4 +4,4 @@ Sanrio Fanclub landing page !
 
 practicing my css
 
-live: seyfire.github.io
+live: https://seyfire.github.io/landing-page/
