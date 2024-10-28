@@ -41,9 +41,11 @@ nav {
     padding-top: 12px;
 }
 
-.logo {
+.logo a{
     font-size: 24px;
     font-weight: 900;
+    text-decoration: 0;
+    color:#F5F4F4;
 }
 
 .nav-links {
@@ -145,12 +147,22 @@ button {
 
 .action-container {
     background-color: #F5F4F4;
+    padding: 120px 15%;
 }
 
 .action-box {
     background-color: #F686BD;
+    padding : 40px 120px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.action-box button {
+    margin-left: auto;
 }
 
 footer {
     background-color: #FE5D9F;
+    text-align: center;
+    padding: 20px 0;
 }
