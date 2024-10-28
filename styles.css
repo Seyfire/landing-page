@@ -65,7 +65,13 @@ nav {
 }
 
 .hero-panel {
-    flex: 1;
+    flex: 3;
+}
+
+img.hero-img {
+    width: 400px;
+    flex: 1 0 auto;
+    align-self: flex-start;
 }
 
 .hero-text {
@@ -92,11 +98,6 @@ button {
 button:hover {
     background-color: #F5F4F4;
     color:#FE5D9F;
-}
-
-.hero-container img {
-    width: 400px;
-    flex: 1;
 }
 
 .info-container {
@@ -132,7 +133,7 @@ button:hover {
 }
 
 .panel img {
-    width: 200px;
+    max-width: 200px;
 }
 
 .quote-container {
